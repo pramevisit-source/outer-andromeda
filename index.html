@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParaWinter 2026 — Milano Cortina Winter Paralympic Games Hub</title>
+  <meta name="description" content="Your ultimate guide to the 2026 Winter Paralympics in Milano Cortina, Italy. Explore all 6 sports, schedules, venues, athlete stories, and everything about the Paralympic Winter Games.">
+  <meta name="keywords" content="2026 Winter Paralympics, Milano Cortina 2026, Paralympic Games, Para Alpine Skiing, Para Ice Hockey, Wheelchair Curling, Para Biathlon, Para Snowboard, Winter Sports, Disability Sports">
+  <meta name="author" content="ParaWinter 2026">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://parawinter2026.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ParaWinter 2026 — Milano Cortina Winter Paralympic Games Hub">
+  <meta property="og:description" content="Your ultimate guide to the 2026 Winter Paralympics. Explore sports, schedules, venues and more.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://parawinter2026.com/">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ParaWinter 2026 — Milano Cortina Paralympic Games Hub">
+  <meta name="twitter:description" content="Your ultimate guide to the 2026 Winter Paralympics in Milano Cortina.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ParaWinter 2026",
+    "url": "https://parawinter2026.com",
+    "description": "Your ultimate guide to the 2026 Winter Paralympics in Milano Cortina, Italy.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "ParaWinter 2026",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "pramevisit@gmail.com",
+        "contactType": "Customer Support"
+      }
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Italian Flag Stripe -->
+  <div class="italian-stripe"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">
+        <span class="nav-logo-icon">🏔️</span>
+        <span>ParaWinter 2026</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" class="active">Home</a>
+        <a href="sports.html">Sports</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <canvas class="hero-bg-canvas" id="snowCanvas"></canvas>
+    <div class="hero-gradient-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge fade-in">
+        <span class="pulse-dot"></span>
+        Milano Cortina 2026 • March 6–15
+      </div>
+      <h1 class="fade-in-up">The World's Greatest<br><span class="highlight">Winter Paralympic Games</span></h1>
+      <p class="hero-subtitle fade-in-up delay-2">
+        Witness extraordinary athletes competing across 6 thrilling sports in the stunning Italian Alps. Your complete guide to the 2026 Winter Paralympics.
+      </p>
+
+      <!-- Countdown Timer -->
+      <div class="countdown-wrapper fade-in-up delay-3">
+        <div class="countdown-label">Countdown to Opening Ceremony</div>
+        <div class="countdown">
+          <div class="countdown-item">
+            <span class="countdown-number" id="countdown-days">--</span>
+            <span class="countdown-unit">Days</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="countdown-hours">--</span>
+            <span class="countdown-unit">Hours</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="countdown-mins">--</span>
+            <span class="countdown-unit">Minutes</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="countdown-secs">--</span>
+            <span class="countdown-unit">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-buttons fade-in-up delay-4">
+        <a href="sports.html" class="btn btn-primary">Explore Sports ⛷️</a>
+        <a href="schedule.html" class="btn btn-outline">View Schedule →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">6</div>
+          <div class="stat-label">Sports</div>
+        </div>
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">79</div>
+          <div class="stat-label">Medal Events</div>
+        </div>
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">700+</div>
+          <div class="stat-label">Athletes Expected</div>
+        </div>
+        <div class="stat-item animate-on-scroll">
+          <div class="stat-number">45+</div>
+          <div class="stat-label">Countries</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sports Section -->
+  <section class="section" id="sports-section">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">⛷️ Paralympic Sports</span>
+        <h2>6 Incredible Sports to Watch</h2>
+        <p>From the high-speed thrills of alpine skiing to the strategic precision of wheelchair curling, discover every sport at Milano Cortina 2026.</p>
+      </div>
+
+      <div class="sports-grid">
+        <div class="glass-card sport-card animate-on-scroll">
+          <span class="sport-card-icon">⛷️</span>
+          <h3>Para Alpine Skiing</h3>
+          <p>High-speed downhill races through the stunning Cortina d'Ampezzo slopes. Events include Downhill, Super-G, Giant Slalom, Slalom, and Super Combined.</p>
+          <a href="sports.html#alpine" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="glass-card sport-card animate-on-scroll">
+          <span class="sport-card-icon">🎯</span>
+          <h3>Para Biathlon</h3>
+          <p>The ultimate test of endurance and accuracy, combining cross-country skiing with precision rifle shooting across stunning Italian trails.</p>
+          <a href="sports.html#biathlon" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="glass-card sport-card animate-on-scroll">
+          <span class="sport-card-icon">🎿</span>
+          <h3>Para Cross-Country Skiing</h3>
+          <p>Athletes push their limits across challenging Nordic courses, competing in sprint, mid-distance, long-distance, and relay events.</p>
+          <a href="sports.html#cross-country" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="glass-card sport-card animate-on-scroll">
+          <span class="sport-card-icon">🏒</span>
+          <h3>Para Ice Hockey</h3>
+          <p>Fast, physical, and electrifying team sport played on sledges. One of the most popular events at every Winter Paralympics.</p>
+          <a href="sports.html#ice-hockey" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="glass-card sport-card animate-on-scroll">
+          <span class="sport-card-icon">🏂</span>
+          <h3>Para Snowboard</h3>
+          <p>Athletes carve through banked slalom and race head-to-head in snowboard cross — a crowd favorite with incredible energy.</p>
+          <a href="sports.html#snowboard" class="card-link">Learn More →</a>
+        </div>
+
+        <div class="glass-card sport-card animate-on-scroll">
+          <span class="sport-card-icon">🥌</span>
+          <h3>Wheelchair Curling</h3>
+          <p>Strategic brilliance on ice. This year features the debut of mixed doubles alongside the traditional team event.</p>
+          <a href="sports.html#curling" class="card-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Articles Section -->
+  <section class="section section-dark" id="articles-section">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">📰 Latest Articles</span>
+        <h2>Stories, Guides & Insights</h2>
+        <p>Dive deep into the world of the 2026 Winter Paralympics with our comprehensive articles and guides.</p>
+      </div>
+
+      <div class="articles-grid">
+        <a href="article-complete-guide-2026-winter-paralympics.html" class="glass-card article-card animate-on-scroll" style="text-decoration:none;">
+          <div class="article-card-image">🏔️</div>
+          <span class="article-card-tag">Featured Guide</span>
+          <h3>The Complete Guide to the 2026 Winter Paralympics in Milano Cortina</h3>
+          <p>Everything you need to know about the Games — sports, venues, schedules, how to watch, and what makes Milano Cortina 2026 special.</p>
+          <div class="article-card-meta">
+            <span>📅 March 2026</span>
+            <span>⏱️ 12 min read</span>
+          </div>
+        </a>
+
+        <a href="article-para-ice-hockey-guide.html" class="glass-card article-card animate-on-scroll" style="text-decoration:none;">
+          <div class="article-card-image">🏒</div>
+          <span class="article-card-tag">Sport Spotlight</span>
+          <h3>Para Ice Hockey at Milano Cortina 2026: Everything You Need to Know</h3>
+          <p>A deep dive into the most exciting team sport at the Paralympics — rules, teams, history, and what to expect in 2026.</p>
+          <div class="article-card-meta">
+            <span>📅 March 2026</span>
+            <span>⏱️ 10 min read</span>
+          </div>
+        </a>
+
+        <a href="article-accessibility-venues.html" class="glass-card article-card animate-on-scroll" style="text-decoration:none;">
+          <div class="article-card-image">🏟️</div>
+          <span class="article-card-tag">Travel & Venues</span>
+          <h3>Venues & Accessibility: A Guide to Milano Cortina 2026 Paralympic Locations</h3>
+          <p>Discover the world-class venues across Milano, Cortina, and Verona — plus essential accessibility and travel information.</p>
+          <div class="article-card-meta">
+            <span>📅 March 2026</span>
+            <span>⏱️ 9 min read</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule Highlights -->
+  <section class="section" id="schedule-section">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-tag">📅 Key Dates</span>
+        <h2>Schedule Highlights</h2>
+        <p>Don't miss these key moments of the 2026 Winter Paralympics.</p>
+      </div>
+
+      <div class="schedule-table-wrapper animate-on-scroll">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Event</th>
+              <th>Venue</th>
+              <th>Category</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>March 4</td>
+              <td>Wheelchair Curling begins (Round Robin)</td>
+              <td>Milan Ice Arena</td>
+              <td><span class="event-badge curling">Curling</span></td>
+            </tr>
+            <tr>
+              <td>March 6</td>
+              <td>Opening Ceremony 🎉</td>
+              <td>Verona Arena</td>
+              <td><span class="event-badge ceremony">Ceremony</span></td>
+            </tr>
+            <tr>
+              <td>March 7</td>
+              <td>Para Alpine Skiing — Downhill Finals</td>
+              <td>Cortina d'Ampezzo</td>
+              <td><span class="event-badge alpine">Alpine</span></td>
+            </tr>
+            <tr>
+              <td>March 7</td>
+              <td>Para Ice Hockey — Preliminary Round</td>
+              <td>Milan PalaSharp</td>
+              <td><span class="event-badge hockey">Hockey</span></td>
+            </tr>
+            <tr>
+              <td>March 8</td>
+              <td>Para Cross-Country Skiing — Sprint Finals</td>
+              <td>Anterselva/Antholz</td>
+              <td><span class="event-badge cross-country">Cross-Country</span></td>
+            </tr>
+            <tr>
+              <td>March 10</td>
+              <td>Para Biathlon — Individual Finals</td>
+              <td>Anterselva/Antholz</td>
+              <td><span class="event-badge biathlon">Biathlon</span></td>
+            </tr>
+            <tr>
+              <td>March 12</td>
+              <td>Para Snowboard — Snowboard Cross Finals</td>
+              <td>Livigno</td>
+              <td><span class="event-badge snowboard">Snowboard</span></td>
+            </tr>
+            <tr>
+              <td>March 14</td>
+              <td>Para Ice Hockey — Gold Medal Game 🥇</td>
+              <td>Milan PalaSharp</td>
+              <td><span class="event-badge hockey">Hockey</span></td>
+            </tr>
+            <tr>
+              <td>March 15</td>
+              <td>Closing Ceremony 🎆</td>
+              <td>Cortina Olympic Ice Stadium</td>
+              <td><span class="event-badge ceremony">Ceremony</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="schedule.html" class="btn btn-outline">View Full Schedule →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="newsletter-section animate-on-scroll">
+        <h3>🏔️ Stay Updated</h3>
+        <p>Get the latest news, athlete stories, and schedule updates for the 2026 Winter Paralympics delivered to your inbox.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Thank you for subscribing! Contact us at pramevisit@gmail.com for any inquiries.');">
+          <input type="email" placeholder="Enter your email address" required id="newsletter-email">
+          <button type="submit" class="btn btn-gold">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span>🏔️</span>
+          <span>ParaWinter 2026</span>
+        </div>
+        <p>Your ultimate guide to the 2026 Winter Paralympic Games in Milano Cortina, Italy. We provide comprehensive coverage of all 6 sports, schedules, venues, and inspiring athlete stories.</p>
+        <p style="margin-top: 1rem;">📧 <a href="mailto:pramevisit@gmail.com">pramevisit@gmail.com</a></p>
+      </div>
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sports.html">Sports</a></li>
+          <li><a href="schedule.html">Schedule</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Articles</h4>
+        <ul>
+          <li><a href="article-complete-guide-2026-winter-paralympics.html">Complete Guide</a></li>
+          <li><a href="article-para-ice-hockey-guide.html">Para Ice Hockey</a></li>
+          <li><a href="article-accessibility-venues.html">Venues & Accessibility</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ParaWinter 2026. All rights reserved. Contact: <a href="mailto:pramevisit@gmail.com">pramevisit@gmail.com</a></p>
+      <div class="footer-bottom-links">
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Italian Flag Stripe -->
+  <div class="italian-stripe"></div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
